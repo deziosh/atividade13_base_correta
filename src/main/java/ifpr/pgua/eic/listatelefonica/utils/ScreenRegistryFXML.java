@@ -1,8 +1,5 @@
 package ifpr.pgua.eic.listatelefonica.utils;
 
-
-import java.net.URL;
-
 import javafx.scene.Parent;
 import javafx.util.Callback;
 

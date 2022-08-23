@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
@@ -9,25 +8,24 @@
 <?import javafx.geometry.Insets?>
 
 
-<BorderPane xmlns="http://javafx.com/javafx" 
-      xmlns:fx="http://javafx.com/fxml" 
-      prefHeight="400" prefWidth="600"
-      fx:controller="ifpr.pgua.eic.listatelefonica.controllers.JanelaPrincipal"
-      >
-   <padding>
-      <Insets topRightBottomLeft="20"/>
-   </padding>
+<BorderPane 
 
-   <left>
-      <VBox spacing="5.0" alignment="CENTER">
-         <padding>
-            <Insets topRightBottomLeft="20"/>
-         </padding>
-      
-         <Button text="Cadastrar" prefWidth="200"/>
-         <Button text="Listar" prefWidth="200"/>
-      </VBox>
-   </left>
+      xmlns="http://javafx.com/javafx/8.0.171" 
+      xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="ifpr.pgua.eic.listatelefonica.controllers.JanelaPrincipal"
+      prefWidth="800" prefHeight="400"
+      >      
+
+      <padding>
+            <Insets topRightBottomLeft="10.0"/>
+      </padding>
+
+      <left>
+            <VBox spacing = "10.0" alignment = "TOP_CENTER">
+                  <Button text="Cadastro" prefWidth="100" onAction="#carregaTelaCadastro"/>
+                  <Button text="Listar" prefWidth="100" onAction="#carregaTelaListar"/>
+            </VBox>
+      </left>
 
 
 </BorderPane>
