@@ -19,17 +19,17 @@
     
     <HBox spacing="22.0">
         <Label text="Nome: "/>
-        <TextField fx:id="tfNome"/>
+        <TextField fx:id="tfNome" styleClass="tf"/>
     </HBox>
 
     <HBox spacing="10.0">
         <Label text="Telefone: "/>
-        <TextField fx:id="tfTelefone"/>  
+        <TextField fx:id="tfTelefone" styleClass="tf"/>  
     </HBox>
 
     <HBox spacing="30.0">
         <Label text="Email:"/>
-        <TextField fx:id="tfEmail"/>  
+        <TextField fx:id="tfEmail" styleClass="tf"/>  
     </HBox>
 
     <HBox>

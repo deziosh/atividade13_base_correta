@@ -26,11 +26,11 @@
           <Button text = "Pesquisar" prefWidth="80" onAction="#pesquisar"/>
         </HBox>
 
-        <ListView fx:id="ltvContatos" onMouseClicked="#mostrarDetalhes"/>        
+        <ListView fx:id="ltvContatos" onMouseClicked="#mostrarDetalhes" styleClass="lv"/>        
       </VBox>
 
       <VBox spacing="10.0">
-        <TextArea fx:id="taDetalhes" editable="false"/>
+        <TextArea fx:id="taDetalhes" editable="false" styleClass="detalhes"/>
       </VBox>
       
 </HBox>

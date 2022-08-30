@@ -1,0 +1,41 @@
+#borderPane{
+    -fx-background-color: linear-gradiente(#00fa9a,#008080);
+}
+.button{
+    -fx-background-color: #008080;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-opacity: 1;
+    -fx-effect: dropshadow(gaussian, rgb(255, 255, 255), 5, 0.1, 0.0, 0.0);
+    -fx-font-family:Serif;
+    -fx-font-size: 13;
+    
+}
+.label{
+    -fx-font-family:montserrat;
+    -fx-font-weight:bold;
+    -fx-text-fill:#ffff;
+    -fx-font-family:Serif;
+    -fx-font-size: 15;
+}
+.tf{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-font-family:Serif;
+    -fx-font-size: 15;
+    -fx-background-color:#008080;
+    -fx-text-fill:#ffff;
+}
+.lv{
+    -fx-font:Arial;
+    -fx-font-size: 15;
+    -fx-text-fill:#008080;
+}
+
+.detalhes{
+    -fx-font:Arial;
+    -fx-font-size: 15;
+    -fx-text-fill:#008080;
+}
